@@ -3,7 +3,7 @@
 yum install git
 
 # Install k3s 
-curl -sfL https://get.k3s.io | sh -
+curl -sfL https://get.k3s.io | sh -s - --write-kubeconfig-mode 644
 
 # Download the latest version of Helm using the following command
 wget https://get.helm.sh/helm-v3.6.0-linux-amd64.tar.gz

@@ -1,6 +1,6 @@
-#!/bin/bash 
+ 
 git:
-    yum install git
+	sudo yum install git
 
 # Install k3s
 k3s-install:
