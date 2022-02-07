@@ -1,10 +1,12 @@
  
 git:
-	sudo yum install git
+	sudo yum install -y git
 
+git-uninstall:
+	sudo yum remove -y git
 # Install k3s
 k3s-install:
-	curl -sfL https://get.k3s.io | sh - --write-kubeconfig-mode
+	curl -sfL https://get.k3s.io | sh -s - --write-kubeconfig-mode 644
 
 k3s-uninstall:
 	/usr/local/bin/k3s-uninstall.sh
