@@ -1,0 +1,12 @@
+Deploy shell-demo.yaml
+
+Describe the new pod
+Access to shell inside the container
+
+Deploy the shell-demo-f.yaml 
+Debug the issue 
+Fix the issue without remove namespace
+Make sure pods are running
+
+
+
