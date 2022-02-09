@@ -1,3 +1,3 @@
 [submodule "kubernetes-ingress"]
-	path = kubernetes-ingress
+	path = charts/kubernetes-ingress
 	url = https://github.com/nginxinc/kubernetes-ingress/
