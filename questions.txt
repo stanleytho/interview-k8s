@@ -6,26 +6,23 @@ A Daemon set is a set of pods that runs only once on a host. They are used for h
 What is a Namespace in Kubernetes?
 Namespaces are used for dividing cluster resources between multiple users. They are meant for environments where there are many users spread across projects or teams and provide a scope of resources.
 
-What are the different services within Kubernetes?
+ What are the different services within Kubernetes?
 Different types of Kubernetes services include: 
 • Cluster IP service
 • Node Port service
 • External Name Creation service and 
 • Load Balancer service
-
 27. What is ClusterIP?
 The ClusterIP is the default Kubernetes service that provides a service inside a cluster (with no external access) that other apps inside your cluster can access. 
-
 28. What is NodePort? 
 The NodePort service is the most fundamental way to get external traffic directly to your service. It opens a specific port on all Nodes and forwards any traffic sent to this port to the service.
-
 29. What is the LoadBalancer in Kubernetes? 
 The LoadBalancer service is used to expose services to the internet. A Network load balancer, for example, creates a single IP address that forwards all traffic to your service. 
 
 What is Kubelet?
 The kubelet is a service agent that controls and maintains a set of pods by watching for pod specs through the Kubernetes API server. It preserves the pod lifecycle by ensuring that a given set of containers are all running as they should. The kubelet runs on each node and enables the communication between the master and slave nodes.
 
-Explain Replica set
+ Explain Replica set
 A Replica set is used to keep replica pods stable. It enables us to specify the available number of identical pods. This can be considered a replacement for the replication .controller.
 
 
