@@ -1,0 +1,18 @@
+This EC2 already had k3s and helm install
+
+please follow these steps to install a new pods. if there is any error, debug it and explain your works.
+
+```
+Deploy shell-demo.yaml
+
+Describe the new pod
+Access to shell inside the container
+
+Deploy the shell-demo-f.yaml 
+Make sure all pod are running. 
+deploy mysql.yaml 
+Make sure its pod is running
+
+Deploy new Helm chart in kubernetes-ingress/deployments/helmchart
+
+```
